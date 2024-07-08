@@ -49,8 +49,9 @@
   margin-bottom: 4px;
 }
 
-.thumbnail {
+.thumbnail { 
  position: relative;
+ cursor: pointer;
 }
 
 .video-time {

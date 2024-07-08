@@ -79,6 +79,7 @@
   margin-left: -1px;
   margin-right: 9px;
   position: relative;
+  cursor: pointer;
 }
 
 .voice-search-button {
@@ -95,6 +96,7 @@
 .search-icon,
 .voice-search-icon {
   height: 25px;
+  cursor: pointer;
 }
 
 .upload-icon,
@@ -102,6 +104,7 @@
 .notifications-icon {
   height: 25px;
   position: relative;
+  cursor: pointer;
 }
 
 .upload-container,
@@ -175,6 +178,5 @@
 .youtube-apps-conatainer:hover .tooltip-youtube-apps,
 .notifications-icon-container:hover .tooltip-notification {
   opacity: 1;
-  cursor: pointer;
 }
 
