@@ -51,6 +51,7 @@
 
 .thumbnail {
  position: relative;
+ cursor: pointer;
 }
 
 .video-time {
