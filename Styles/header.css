@@ -114,6 +114,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .notifications {
@@ -167,16 +168,29 @@
   padding: 10px 8px;
   font-family: roboto, arial;
   font-size: 12px;
-  opacity: 0;
+  visibility: hidden;
   transition: 0.15;
-  pointer-events: none;
 }
 
-.search-button:hover .tooltip-search,
+/* the mistake here is showing the tooltip when you hover on them, you should change
+the opacity when you hover on the container I comented out the code below and used visiblity instead of opacity
+I'll explain why later*/
+
+.upload-container:hover .tooltip-upload,
+.youtube-apps-conatainer:hover .tooltip-youtube-apps,
+.notifications-icon-container:hover .tooltip-notification {
+  visibility: visible;
+}
+
+/* .search-button:hover .tooltip-search,
 .voice-search-button:hover .tooltip-voice-search,
 .upload-container:hover .tooltip-upload,
 .youtube-apps-conatainer:hover .tooltip-youtube-apps,
 .notifications-icon-container:hover .tooltip-notification {
   opacity: 1;
+ sorry_my_bad
 }
+  cursor: pointer;
+} */
+
 
